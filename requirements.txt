@@ -1,0 +1,22 @@
+streamlit==1.37.1
+pandas
+numpy
+matplotlib
+scikit-learn
+statsmodels
+xgboost
+prophet
+plotly
+openpyxl
+
+Library Purpose
+streamlit → Interactive dashboard
+pandas → Data manipulation
+numpy → Numerical computations
+matplotlib → Data visualization
+scikit-learn → Isolation Forest, K-Means, PCA, metrics
+statsmodels → SARIMA, ADF Test, Time Series Decomposition
+xgboost → XGBoost forecasting model
+prophet → Facebook Prophet forecasting
+plotly → Interactive charts
+openpyxl → Reading/writing Excel files
