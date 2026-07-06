@@ -127,7 +127,7 @@ if page == "Sales Overview":
         df.groupby(
             pd.Grouper(
                 key="Order Date",
-                freq="M"
+                freq="ME"
             )
         )["Sales"]
         .sum()
@@ -421,7 +421,7 @@ elif page == "Demand Segments":
     monthly_subcat = (
         df.groupby(
             ["Sub-Category",
-             pd.Grouper(key="Order Date", freq="M")]
+             pd.Grouper(key="Order Date", freq="ME")]
         )["Sales"]
         .sum()
         .reset_index()
