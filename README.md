@@ -189,3 +189,7 @@ Run the Streamlit application:
 ```bash
 streamlit run app.py
 ```
+## Project Links
+
+Live Streamlit App:
+https://salesforecasting-mayuri-vpz2xpggkzkhrzizkamyey.streamlit.app/
